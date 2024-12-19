@@ -1,10 +1,12 @@
 const axios = require('axios');
 const db = require('../config/db.js'); 
+require('dotenv').config();
+const apiUrl = process.env.API_URL;
 
 // Función principal para actualizar aliados
 async function actualizarDatosAliados() {
     try {
-        const response = await axios.get('https://rapikom.com/services/sql2json.php?table=view_aliados_tiendas');
+        const response = await axios.get(apiUrl);
         const aliados = response.data.filter(aliado => aliado.inactivo === '0');
         for (const aliado of aliados) {
             const [existingPlace] = await db.query('SELECT * FROM aliados_maps WHERE id_vendedor = ?', [aliado.id_aliado]);

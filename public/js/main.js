@@ -9,7 +9,7 @@ $(document).ready(function () {
 
             // Inicializar categorías, estados y ciudades
             aliados.forEach(aliado => {
-                if (!aliado.categoria || !aliado.id_categoria) return;
+                if (!aliado.categoria || aliado.categoria === "\"No disponible\"" || !aliado.id_categoria) return;
                 const categoryId = aliado.id_categoria;
                 const state = aliado.estado;
                 const city = aliado.ciudad;

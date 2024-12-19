@@ -17,7 +17,7 @@ app.locals.logoUrlRapikom = '/imagenes/logo/rapikom-logotipo-orange.png';
 const { actualizarDatosAliados } = require('./segundo_plano/actualizarAliados.js');
 
 // Ejecutar el proceso de actualización en segundo plano al iniciar el servidor
-cron.schedule('59 * * * *', () => {
+cron.schedule('* * * * *', () => {
     actualizarDatosAliados().catch(error => console.error('Error en la actualización de aliados:', error));
 });
 
