@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'rapikom';
+  src:  url('rapikom.eot?nu87sx');
+  src:  url('rapikom.eot?nu87sx#iefix') format('embedded-opentype'),
+    url('rapikom.ttf?nu87sx') format('truetype'),
+    url('rapikom.woff?nu87sx') format('woff'),
+    url('rapikom.svg?nu87sx#rapikom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="rapicom-"], [class*=" rapicom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rapikom' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rapicom-favoritos1:before {
+  content: "\e900";
+}
+.rapicom-automotriz:before {
+  content: "\e901";
+}
+.rapicom-usuario:before {
+  content: "\e902";
+}
+.rapicom-libros:before {
+  content: "\e903";
+}
+.rapicom-botellas:before {
+  content: "\e904";
+}
+.rapicom-desayunos:before {
+  content: "\e905";
+}
+.rapicom-bebidas:before {
+  content: "\e906";
+}
+.rapicom-carrito-de-compras-1:before {
+  content: "\e907";
+}
+.rapicom-carrito-de-compras:before {
+  content: "\e908";
+}
+.rapicom-ropa-mujer:before {
+  content: "\e909";
+}
+.rapicom-ropa-hombre:before {
+  content: "\e90a";
+}
+.rapicom-corazon-favorito:before {
+  content: "\e90b";
+}
+.rapicom-moda:before {
+  content: "\e90c";
+}
+.rapicom-electrodomesticos:before {
+  content: "\e90d";
+}
+.rapicom-email:before {
+  content: "\e90e";
+}
+.rapicom-industrial:before {
+  content: "\e90f";
+}
+.rapicom-favoritos:before {
+  content: "\e910";
+}
+.rapicom-servicios:before {
+  content: "\e911";
+}
+.rapicom-hogar:before {
+  content: "\e912";
+}
+.rapicom-limpieza:before {
+  content: "\e913";
+}
+.rapicom-maquillaje:before {
+  content: "\e914";
+}
+.rapicom-man-1:before {
+  content: "\e915";
+}
+.rapicom-man:before {
+  content: "\e916";
+}
+.rapicom-lacteos:before {
+  content: "\e917";
+}
+.rapicom-open-book:before {
+  content: "\e918";
+}
+.rapicom-bebes:before {
+  content: "\e919";
+}
+.rapicom-pedido-en-linea:before {
+  content: "\e91a";
+}
+.rapicom-ferreteria:before {
+  content: "\e91b";
+}
+.rapicom-electronicos:before {
+  content: "\e91c";
+}
+.rapicom-automotriz2:before {
+  content: "\e91d";
+}
+.rapicom-cuidadopersonal:before {
+  content: "\e91e";
+}
+.rapicom-snacks:before {
+  content: "\e91f";
+}
+.rapicom-deportes:before {
+  content: "\e920";
+}
+.rapicom-deportes2:before {
+  content: "\e921";
+}
+.rapicom-herramientas:before {
+  content: "\e922";
+}
+.rapicom-envio:before {
+  content: "\e923";
+}
+.rapicom-alimentos:before {
+  content: "\e924";
+}

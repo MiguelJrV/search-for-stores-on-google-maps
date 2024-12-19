@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <%- include('../head', { scripts: ['/js/main.js'] }) %>
+</head>
+<header>
+    <%- include('../header') %>
+    <%- include('../header-mobile') %>
+</header>
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="container-custom">
+            <a href="https://play.google.com/store/apps/details?id=com.rapikom.rapikommobile">
+                <img src="/imagenes/banner-desktop.png" alt="Rapikom Cash" class="only-desktop banner-img mb-5">
+                <img src="/imagenes/banner-mobile.png" alt="Rapikom Cash" class="only-mobile banner-img mb-5">
+
+            </a>
+
+            <img src="/imagenes/rcashpin1.jpg" alt="Rapikom Cash" class="logo-round">
+            
+            <h5 class="mb-1">Tiendas Aliadas</h5>
+            <p>Compra en cuotas sin intereses</p>
+
+            <div class="search-element media-body mt-2 mb-2">
+                <form class="d-flex">								
+                    <input type="text" placeholder="Busca tu tienda" class="searchfor" />
+                    <button type="button" class="fa fa-search btn-search"></button>
+                </form>
+            </div>
+            <div class ="list-container">
+                <div class="state-list"></div>
+                <div class="city-list"></div>
+            </div>
+
+            <div id="categories-container"></div>
+        </div>
+    </div>
+
+    <%- include('../footer') %>
+    <%- include('../footer-mobile') %>
+    <%- include('qr-modal') %>
+    
+</body>
+</html>
